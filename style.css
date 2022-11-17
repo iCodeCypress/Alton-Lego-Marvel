@@ -1,0 +1,87 @@
+.marvel{
+    background-color: orange;
+    font-size: 50px;
+    font-style: italic;
+    margin: 20px;
+    color: blue;
+    cursor: pointer;
+}
+
+.Marvel{
+    background-color: brown;
+    font-size: 60px;
+    font-style: inherit;
+    font-family: fantasy;
+    color: green;
+  
+}
+.Marvel:hover{
+    color: yellow;
+    background-color: gray;
+    background-image: image();
+   font-family: cursive;
+
+}
+.theend{
+    color: red;
+    background-color: yellow;
+}
+
+body{
+    text-align: center;
+    background-color:grey
+}
+
+img{
+    border: 5px dashed orange;
+    border-radius: 20px;
+}
+
+h2{
+    font-size: 40px;
+    background-color: brown;
+}
+
+
+li{
+    list-style-type: none;
+    font-size: 40px;
+      color: orange;    
+}
+
+p{
+    font-size: 30px;
+    background-color: blue;
+}
+
+.popUp{
+    animation: popUp 3s infinite;
+}
+
+@keyframes popUp {
+    0%{
+        opacity: 0;
+        transform: scale(.3);
+    }
+    25%{
+        transform: scale(.6);
+    }
+    50%{
+        transform: scale(.9);
+    }
+    75%{
+        transform: scale(1.2);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+iframe{
+    border-radius: 20px;
+}
+
+h1{
+    
+}
